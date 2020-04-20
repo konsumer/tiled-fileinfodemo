@@ -47,7 +47,6 @@ const customTileMapFormat = {
       path: FileInfo.path(fileName),
       // permission: FileInfo.permission(fileName),
       refresh: FileInfo.refresh(fileName),
-      setCaching: FileInfo.setCaching(fileName, true),
       size: FileInfo.size(fileName),
       suffix: FileInfo.suffix(fileName),
       symLinkTarget: FileInfo.symLinkTarget(fileName)
