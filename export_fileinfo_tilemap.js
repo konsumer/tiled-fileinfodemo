@@ -45,7 +45,7 @@ const customTileMapFormat = {
       owner: FileInfo.owner(fileName),
       ownerId: FileInfo.ownerId(fileName),
       path: FileInfo.path(fileName),
-      // permission: FileInfo.permission(fileName),
+      permissions: FileInfo.permissions(fileName),
       refresh: FileInfo.refresh(fileName),
       size: FileInfo.size(fileName),
       suffix: FileInfo.suffix(fileName),
